@@ -59,8 +59,6 @@ public class Knight {
 		arr[1][6] = y-1;
 		arr[0][7] = x+2;
 		arr[1][7] = y+1;
-		return arr;
-		
+		return arr;		
 	}
-	
 }
