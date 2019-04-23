@@ -1,5 +1,3 @@
-package CompSciCompetition;
-
 import java.util.*;
 import java.io.*;
 
