@@ -1,5 +1,3 @@
-//Practice Problem for AP CS Competition
-
 import java.io.*;
 import java.util.*;
 
