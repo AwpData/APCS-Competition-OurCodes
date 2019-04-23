@@ -1,9 +1,7 @@
 //Practice Problem for AP CS Competition
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class diamonds {
 	public static void main(String[] args) throws FileNotFoundException {
