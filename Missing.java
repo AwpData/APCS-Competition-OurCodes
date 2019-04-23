@@ -1,9 +1,5 @@
-package CompSciCompetition;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Missing {
 	public static void main(String[] args) throws FileNotFoundException {
