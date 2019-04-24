@@ -3,8 +3,8 @@ import java.util.*;
 
 public class cheese {
 	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/cheese/output");
-		Scanner filereader = new Scanner(new File("src/cheese/cheese.in"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/cheese.in"));
 
 		while (filereader.hasNextLine()) {
 			String word = filereader.nextLine();
