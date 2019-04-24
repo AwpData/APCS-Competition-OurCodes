@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Similar {
 	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/Similar/output");
-		Scanner filereader = new Scanner(new File("src/Similar/triangles.in"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/triangles.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		while (num > 0) {
 			String integers = filereader.nextLine();
