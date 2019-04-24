@@ -4,7 +4,7 @@ import java.io.*;
 public class Genome {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/genome.in"));
+		Scanner filereader = new Scanner(new File("src/genome.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		while (num > 0) {
 			String DNA = filereader.nextLine();
