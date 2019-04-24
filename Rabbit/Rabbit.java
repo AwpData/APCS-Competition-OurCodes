@@ -4,7 +4,7 @@ import java.io.*;
 public class Rabbit {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/rabbit.in"));
+		Scanner filereader = new Scanner(new File("src/rabbit.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		while (num > 0) {
 			String line = filereader.nextLine();
