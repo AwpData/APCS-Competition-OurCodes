@@ -3,8 +3,8 @@ import java.util.*;
 
 public class Climb {
 	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/Climb/output");
-		Scanner filereader = new Scanner(new File("src/Climb/climb.in"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/climb.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		while (num > 0) {
 			int times = Integer.parseInt(filereader.nextLine());
