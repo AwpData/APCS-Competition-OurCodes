@@ -4,7 +4,7 @@ import java.util.*;
 public class bestnumber {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/bestnumber/output");
-		Scanner filereader = new Scanner(new File("src/bestnumber/bestnumber"));
+		Scanner filereader = new Scanner(new File("src/bestnumber/bestnumber.in"));
 		filereader.nextLine();
 		int big;
 		if (filereader.nextLine().equals("biggest")) {
