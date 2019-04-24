@@ -3,8 +3,8 @@ import java.util.*;
 
 public class bestnumber {
 	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/bestnumber/output");
-		Scanner filereader = new Scanner(new File("src/bestnumber/bestnumber.in"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/bestnumber.in"));
 		filereader.nextLine();
 		int big;
 		if (filereader.nextLine().equals("biggest")) {
