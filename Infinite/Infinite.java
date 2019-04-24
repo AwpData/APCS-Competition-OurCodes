@@ -4,7 +4,7 @@ import java.util.*;
 public class Infinite {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/infinite.in"));
+		Scanner filereader = new Scanner(new File("src/infinite.in"));
 		int n = Integer.parseInt(filereader.nextLine());
 		ArrayList<Integer> three = new ArrayList<>();
 		int count = 2;
