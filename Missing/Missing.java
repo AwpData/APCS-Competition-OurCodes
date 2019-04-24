@@ -4,7 +4,7 @@ import java.util.*;
 public class Missing {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/missing.in"));
+		Scanner filereader = new Scanner(new File("src/missing.in"));
 		int n = Integer.parseInt(filereader.nextLine());
 		while(n>0) {
 			String line = filereader.nextLine();
