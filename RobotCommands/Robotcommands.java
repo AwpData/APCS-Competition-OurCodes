@@ -4,7 +4,7 @@ import java.io.*;
 public class Robotcommands {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/robotcommands.in"));
+		Scanner filereader = new Scanner(new File("src/robotcommands.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		while (num > 0) {
 			filereader.nextLine();
