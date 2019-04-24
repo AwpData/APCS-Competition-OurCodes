@@ -3,8 +3,8 @@ import java.util.*;
 
 public class RockPaperScissors {
 	public static void main(String[]args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/rock/output");
-		Scanner filereader = new Scanner(new File("src/rock/rock"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/rock.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 		
 		while (num > 0) {
