@@ -4,7 +4,7 @@ import java.util.*;
 public class Secretword {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/secretword.in"));
+		Scanner filereader = new Scanner(new File("src/secretword.in"));
 		int s = Integer.parseInt(filereader.nextLine());
 		while (s > 0) {
 			int n = Integer.parseInt(filereader.nextLine());
