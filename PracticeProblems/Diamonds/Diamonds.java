@@ -3,8 +3,8 @@ import java.util.*;
 
 public class diamonds {
 	public static void main(String[] args) throws FileNotFoundException {
-		PrintStream output = new PrintStream("src/Diamonds/output");
-		Scanner filereader = new Scanner(new File("src/Diamonds/diamonds.in"));
+		PrintStream output = new PrintStream("src/output");
+		Scanner filereader = new Scanner(new File("src/diamonds.in"));
 		filereader.nextLine();
 		while (filereader.hasNextLine()) {
 			int stars = 1;
