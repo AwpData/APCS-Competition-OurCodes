@@ -4,7 +4,7 @@ import java.util.*;
 public class Abcwords {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/abcwords.in"));
+		Scanner filereader = new Scanner(new File("src/abcwords.in"));
 		int num = Integer.parseInt(filereader.nextLine());
 
 		while (num > 0) {
