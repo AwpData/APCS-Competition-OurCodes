@@ -4,7 +4,7 @@ import java.io.*;
 public class Icecreamcatch {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintStream output = new PrintStream("src/output");
-		Scanner filereader = new Scanner(new File("D:/judge/icecreamcatch.in"));
+		Scanner filereader = new Scanner(new File("src/icecreamcatch.in"));
 		int s = Integer.parseInt(filereader.nextLine());
 		while (s > 0) {
 			int j = 0;
